@@ -1,0 +1,72 @@
+.main-cards {
+  grid-area: cards;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  /*   margin-left: 20px; */
+}
+section {
+  width: 199px;
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: top right;
+  border-radius: var(--radius);
+}
+.Play {
+  background-image: url(../icon-play.svg);
+  background-color: var(--play);
+}
+.Work {
+  background-image: url(../icon-work.svg);
+  background-color: var(--work);
+}
+.Social {
+  background-image: url(../icon-social.svg);
+  background-color: var(--social);
+}
+.Study {
+  background-image: url(../icon-study.svg);
+  background-color: var(--study);
+}
+.Exercise {
+  background-image: url(../icon-exercise.svg);
+  background-color: var(--exercise);
+}
+.SelfCare {
+  background-image: url(../icon-self-care.svg);
+  background-color: var(--selfcare);
+}
+article {
+  height: 74%;
+  width: 201px;
+  text-align: left;
+  margin-top: 35px;
+  padding: 10px 0 10px 0;
+  background-color: var(--primary-color);
+  border-radius: var(--radius);
+  &:hover {
+    background-color: var(--hover);
+  }
+  .head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  h2 {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  h1 {
+    font-weight: 400;
+  }
+  p {
+    font-weight: 300;
+  }
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 5px;
+    padding-left: 20px;
+  }
+}

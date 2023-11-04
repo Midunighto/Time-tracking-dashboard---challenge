@@ -1,0 +1,18 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* APP */
+.main {
+  display: grid;
+  grid-template-areas:
+    "profil cards"
+    "footer footer";
+  gap: 20px;
+}
+footer {
+  grid-area: footer;
+  display: flex;
+  flex-direction: column;
+}

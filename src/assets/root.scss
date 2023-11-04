@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+:root {
+  --primary-color: #1e2048;
+  --profil-color: #5447e0;
+  --radius: 10px;
+  --study: #fe6079;
+  --social: #7235d1;
+  --exercise: #48d084;
+  --work: #ff8b64;
+  --selfcare: #eec760;
+  --play: #59c1e6;
+  --hover: #34397b;
+  --font: Rubik;
+}
+* {
+  margin: 0;
+  font-family: var(--font);
+}
+body {
+  background-color: hsl(226, 43%, 10%);
+}
