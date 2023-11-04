@@ -1,11 +1,8 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import "./assets/root.scss";
-import "./assets/ProfilCard.scss";
+import "./assets/profilCard.scss";
 import "./assets/cards.scss";
-import data from "../data.json";
 import ProfilCard from "./components/ProfilCard";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
