@@ -22,7 +22,7 @@
     img {
       width: 45%;
       border: 4px solid white;
-      border-radius: 50px;
+      border-radius: 70px;
     }
   }
   .profil-infos {
@@ -93,5 +93,25 @@
     flex-direction: row;
     justify-content: space-around;
     gap: 5px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 920px) {
+  .profilCard {
+    height: 60vh;
+    .profil {
+      align-items: center;
+    }
+    .profil-image {
+      width: 70%;
+      img {
+        width: 100%;
+      }
+    }
+    .profil-infos {
+      align-items: center;
+      h1 {
+        text-align: center;
+      }
+    }
   }
 }

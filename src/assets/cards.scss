@@ -103,3 +103,32 @@ article {
     }
   }
 }
+@media screen and (min-width: 320px) and (max-width: 920px) {
+  .main-cards {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+  }
+  section {
+    height: 15vh;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  article {
+    margin-top: 30px;
+    height: 75%;
+    width: 100%;
+    gap: 0;
+    .head {
+      padding: 10px 20px 2px;
+    }
+    .body {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+    h1 {
+      font-size: 1.7rem;
+    }
+  }
+}
