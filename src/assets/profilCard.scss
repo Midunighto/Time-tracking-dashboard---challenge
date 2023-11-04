@@ -59,3 +59,39 @@
     }
   }
 }
+@media screen and (max-width: 320px) {
+  .profilCard {
+    height: 35vh;
+    width: 80vw;
+    .profil {
+      height: auto;
+      flex-direction: row;
+      align-items: center;
+      justify-content: start;
+      padding: 20px;
+      gap: 25px;
+      .profil-image {
+        width: 25%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .profil-infos {
+      align-items: start;
+      gap: 0;
+      text-align: left;
+      p {
+        font-size: 0.8rem;
+      }
+      h1 {
+        font-size: 1rem;
+      }
+    }
+  }
+  .buttons {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5px;
+  }
+}

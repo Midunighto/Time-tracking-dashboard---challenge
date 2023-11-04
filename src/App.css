@@ -16,3 +16,9 @@ footer {
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 320px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+}
