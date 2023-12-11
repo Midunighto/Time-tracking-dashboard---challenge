@@ -3,7 +3,7 @@ function Cards({ setDisplay, display }) {
   return (
     <div className="main-cards">
       {data.map((index) => (
-        <section className={index.title}>
+        <section className={index.title} key={index.title}>
           <article>
             <div className="daily">
               <div className="head">
